@@ -43,6 +43,11 @@ body {
   cursor: pointer;
   width: 40px;
   height: 40px;
+  opacity: 0;
+}
+
+.carousel .carousel__actions button:hover {
+  opacity: 1;
 }
 
 .carousel .carousel__actions button#carousel__button--prev {
